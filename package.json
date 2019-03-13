@@ -1,0 +1,32 @@
+{
+  "name": "chirper",
+  "version": "1.0.0",
+  "description": "Chirper is a more intuitive version of Twitter.",
+  "main": "chirper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osmonalievaa/Chirper.git"
+  },
+  "keywords": [
+    "Chirper",
+    "Twitter",
+    "Social",
+    "Network"
+  ],
+  "author": "Osmonalieva Aidai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/osmonalievaa/Chirper/issues"
+  },
+  "homepage": "https://github.com/osmonalievaa/Chirper#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}
