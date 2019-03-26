@@ -96,7 +96,7 @@ app.post('/login', (request, response) => {
     const password = request.body.password
 
     User.findOne({ 'where' : { 'login' : login } }).then(user => {
-        if (bcrypt.compareSync(passwordy, user.password)) {
+        if (bcrypt.compareSync(password, user.password)) {
             request.session.authorized = true
             request.session.login = login
             request.session.userID = user.id
